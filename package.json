@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-firebase-ssr-sample",
+  "name": "firebase-nuxt-wordpress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.18.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.3",
     "vuexfire": "^2.3.1"

@@ -9,6 +9,12 @@ module.exports = {
     DATABASEURL: 'https://fir-nuxt-wordpress.firebaseio.com',
     PROJECTID: 'fir-nuxt-wordpress',
     STORAGEBUCKET: 'fir-nuxt-wordpress.appspot.com',
-    MESSAGINGSENDERID: '221920909823'
-  }
+    MESSAGINGSENDERID: '221920909823',
+    HOST: 'http://52.193.48.36'
+    // HOST: 'http://www.renowan.com/blog'
+  },
+  vendor: ['axios'],
+  css: [
+    '@/static/bootstrap/css/bootstrap.min.css'
+  ]
 }
