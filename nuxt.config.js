@@ -10,7 +10,7 @@ module.exports = {
     PROJECTID: 'fir-nuxt-wordpress',
     STORAGEBUCKET: 'fir-nuxt-wordpress.appspot.com',
     MESSAGINGSENDERID: '221920909823',
-    HOST: 'http://52.193.48.36'
+    HOST: 'https://52.193.48.36'
     // HOST: 'http://www.renowan.com/blog'
   },
   vendor: ['axios'],
