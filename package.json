@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-firebase-ssr-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "start": "HOST=0.0.0.0 nuxt",
+    "build": "nuxt build && npm run build:copy:ssr",
+    "build:copy:ssr": "rimraf functions/ssr && mkdirp functions/ssr && cp -R .nuxt/dist functions/ssr/dist",
+    "serve": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.3",
+    "vuexfire": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "firebase-tools": "^6.3.1",
+    "jest": "^23.6.0",
+    "mkdirp": "^0.5.1",
+    "nodemon": "^1.18.9",
+    "prettier": "1.14.3",
+    "rimraf": "^2.6.3",
+    "vue-jest": "^3.0.2"
+  }
+}
