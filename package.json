@@ -9,7 +9,8 @@
     "build": "nuxt build && npm run build:copy:ssr",
     "build:copy:ssr": "rimraf functions/ssr && mkdirp functions/ssr && cp -R .nuxt/dist functions/ssr/dist",
     "serve": "firebase serve",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
