@@ -16,5 +16,8 @@ module.exports = {
   vendor: ['axios'],
   css: [
     '@/static/bootstrap/css/bootstrap.min.css'
-  ]
+  ],
+  router: {
+    base: '/'
+  }
 }
